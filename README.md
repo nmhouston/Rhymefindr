@@ -4,7 +4,7 @@ This repo contains Rhymefindr, a set of R scripts designed to identify rhymes in
 
 This repo contains three files: 
 
-(1) The get_rhymes R script extracts the endwords from plain text files of poems. The script outputs a csv with the following information for each poem: 
+(1) The get_endwords R script extracts the endwords from plain text files of poems. The script outputs a csv with the following information for each poem: 
 * the textid (filename)
 * the number of lines in the poem
 * the number of stanzas in the poem
