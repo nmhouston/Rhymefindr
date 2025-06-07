@@ -1,6 +1,6 @@
 # Rhymefindr
 
-This repo contains Rhymefindr, a set of R scripts designed to identify rhymes in nineteenth-century English poetry by operationalizing the rules presented in an 1824 edition of John Walker’s _A_Rhyming_Dictionary_, one of the leading references on rhyme throughout the nineteenth century. 
+This repo contains Rhymefindr, a set of R scripts designed to identify rhymes in nineteenth-century English poetry by operationalizing the rules presented in an 1824 edition of John Walker’s _A Rhyming Dictionary_, one of the leading references on rhyme throughout the nineteenth century. 
 
 This repo contains three files: 
 
@@ -18,8 +18,8 @@ This repo contains three files:
 * a numerical vector showing which of the rhymes are perfect rhymes
 * a categorical indicator for the likelihood of the poem being rhymed 
 
-(3) A csv with a key-value table created from an 1824 edition of John Walker’s  _A_Rhyming_Dictionary;_Answering,_at_the_Same_Time,the_Purposes_of_Spelling_and_Pronouncing_the_English_Language,_on_a_Plan_not_Hitherto_Attempted_ (first published in 1775).
+(3) A csv with a key-value table created from an 1824 edition of John Walker’s  _A Rhyming Dictionary; Answering, at the Same Time,the Purposes of Spelling and Pronouncing the English Language, on a Plan not Hitherto Attempted_ (first published in 1775).
 Keys are from the rhyme syllables that head entries in Walker's dictionary. Values are the perfect rhyme syllables, perfect rhyme words, allowable rhyme syllables, and allowable rhyme words.  The following editorial practices were followed in preparing this file: 
 * there are a few words Walker lists as "nearly perfect" which were combined with the "perfect" rhyme words 
 * cross-referenced rhyme syllables were duplicated to cross-reference from both entries (this was inconsistent in Walker's dictionary) 
-* modern spellings for one-syllable past participles were added to make this applicable to a range of nineteenth-century texts (Thus "missed" was added where the dictionary lists "miss'd")
+* modern spellings for one-syllable past participles were added to make this applicable to a range of nineteenth-century texts (for example, "missed" was added where the dictionary lists "miss'd")
